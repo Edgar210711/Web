@@ -1,0 +1,45 @@
+.titulo{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 8px 5px 8px rgb(248, 248, 248);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(83, 16, 145);
+}
+
+body{
+background-color: rgb(146, 78, 209);
+
+}
+
+a{
+    text-decoration-line: none;
+}
+
+#Navegacion {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-size: 40px;
+}
+
+.NoticiasLocales{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+}
+
+#libro{
+    border-style: solid;
+    border-radius: 16px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-width: 5px;
+    width: 15%;
+}
