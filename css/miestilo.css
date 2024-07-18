@@ -69,8 +69,11 @@ footer {
 
 td, th {
     border: 1px solid #000000;
-    text-align: left;
+    text-align:left;
     padding: 8px;
     background-color:rgb(142, 98, 185) ;
   }
   
+  #contacto{
+    margin-left: 60px;
+  }

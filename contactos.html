@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="icon" href="imagenes/favicon.png" type="image/png" sizes="16x16">
     <link rel="stylesheet" href="css/miestilo.css">
 </head>
+
 <body>
     <div class="titulo">
         <header>
@@ -15,18 +17,77 @@
     </div>
     <main>
         <div id="Navegacion">
-            
+
             <nav>
                 <a href="index.html">Inicio |</a>
                 <a href="fotos.html">Fotos |</a>
                 <a href="videos.html">Videos |</a>
                 <a href="contactos.html">Contactos</a>
-            
+
             </nav>
+            <h3>Informacion Personal</h3>
+
+            <form name="formulario" metohd="get" action="procesar.html">
+                <p>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="nombre" maxlength="15" id="nombre">
+                    </label>
+                </p>
+                <p>
+                    <label for="clave">Clave:
+                        <input type="password" name="clave" maxlength="50" id="clave">
+                    </label>
+                </p>
+                </p>
+                <p>
+                    <label>
+                        Correo: <input type="email" name="Correo">
+                    </label>
+                </p>
+                <p><label>
+                        Edad: <input type="number" min="13" max="100" name="Edad">
+
+                    </label>
+
+                </p>
+                <p>
+                    <label> Telefono: <input type="tel" name="telefono" placeholder="506-8457-4621">
+
+                    </label>
+                <p>
+                    <label>
+                        Sitio Web: <input type="url" name="sitioweb">
+                    </label>
+                </p>
+                </p>
+
+                <p>
+                    Estatura: <input type="range" min="50" max="300" name="estatura" value="110">
+                    </label>
+                </p>
+                <div>
+                    <h3>Años de experiencia: </h3>
+
+                    <p>
+                        <label>
+                            Experiencia:
+                            <input type="radio" name="experiencia" value="1" checked> 1 año
+                            <input type="radio" name="experiencia" value="2"> 2 años
+                            <input type="radio" name="experiencia" value="3"> 3 años
+                            <input type="radio" name="experiencia" value="más de 3"> Más de 3 años
+                        </label>
+                    </p>
+                </div>
+                </p>
+            </form>
+
+
+
     </main>
     <footer>
         <address>Alajuela, Costa Rica</address>
         <small>&copy; Derechos Reservados 2024</small>
     </footer>
 </body>
+
 </html>
